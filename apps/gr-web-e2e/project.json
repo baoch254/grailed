@@ -1,0 +1,28 @@
+{
+  "root": "apps/gr-web-e2e",
+  "sourceRoot": "apps/gr-web-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/gr-web-e2e/cypress.json",
+        "devServerTarget": "gr-web:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "gr-web:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/gr-web-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["gr-web"]
+}

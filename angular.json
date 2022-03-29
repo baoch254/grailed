@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "gr-web": "apps/gr-web",
+    "gr-web-e2e": "apps/gr-web-e2e"
+  }
+}

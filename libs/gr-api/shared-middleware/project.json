@@ -1,0 +1,14 @@
+{
+  "root": "libs/gr-api/shared-middleware",
+  "projectType": "library",
+  "sourceRoot": "libs/gr-api/shared-middleware",
+  "targets": {
+    "test": {
+      "executor": "@nx-go/nx-go:test"
+    },
+    "lint": {
+      "executor": "@nx-go/nx-go:lint"
+    }
+  },
+  "tags": []
+}

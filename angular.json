@@ -1,6 +1,14 @@
 {
   "version": 2,
   "projects": {
+    "gr-api": "apps/gr-api",
+    "gr-api-data-access-user": "libs/gr-api/data-access-user",
+    "gr-api-feature-auth": "libs/gr-api/feature-auth",
+    "gr-api-feature-user": "libs/gr-api/feature-user",
+    "gr-api-shared-common": "libs/gr-api/shared-common",
+    "gr-api-shared-middleware": "libs/gr-api/shared-middleware",
+    "gr-api-utils-hasher": "libs/gr-api/utils-hasher",
+    "gr-api-utils-token-provider": "libs/gr-api/utils-token-provider",
     "gr-web": "apps/gr-web",
     "gr-web-e2e": "apps/gr-web-e2e"
   }

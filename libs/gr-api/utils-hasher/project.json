@@ -1,0 +1,14 @@
+{
+  "root": "libs/gr-api/utils-hasher",
+  "projectType": "library",
+  "sourceRoot": "libs/gr-api/utils-hasher",
+  "targets": {
+    "test": {
+      "executor": "@nx-go/nx-go:test"
+    },
+    "lint": {
+      "executor": "@nx-go/nx-go:lint"
+    }
+  },
+  "tags": []
+}

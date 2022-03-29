@@ -1,0 +1,14 @@
+{
+  "root": "libs/gr-api/feature-auth",
+  "projectType": "library",
+  "sourceRoot": "libs/gr-api/feature-auth",
+  "targets": {
+    "test": {
+      "executor": "@nx-go/nx-go:test"
+    },
+    "lint": {
+      "executor": "@nx-go/nx-go:lint"
+    }
+  },
+  "tags": []
+}
